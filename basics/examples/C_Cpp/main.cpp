@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void than_five() {
+int main() {
     cout << "enter a number: ";
     int num; cin >> num;
 
@@ -12,10 +12,6 @@ void than_five() {
     } else {
         cout << num << " is equal to 5" << endl;
     }
-}
-
-int main() {
-    than_five();
 
     return 0;
 }
