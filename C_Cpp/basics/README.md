@@ -5,12 +5,7 @@
 To set up the environment, follow these steps:
 
 1. Open your terminal application.
-2. Navigate to the target directory: `~Programming/C_Cpp/Basics`. If you're not already there, use the `cd` command to change directories:
-
-```sh
-cd Programming/C_Cpp/Basics
-```
-
+2. Navigate to the target directory: `~/Programming/C_Cpp/Basics`. If you're not already there, use the `cd` command to change directories.
 3. Execute the configuration script by entering `./env_configs.sh` and pressing Enter.
 
 ## Execution
