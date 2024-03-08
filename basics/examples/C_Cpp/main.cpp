@@ -2,7 +2,7 @@
 using namespace std;
 
 void than_five() {
-    cout << "Enter a number: ";
+    cout << "enter a number: ";
     int num; cin >> num;
 
     if (num > 5) {
