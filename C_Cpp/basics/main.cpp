@@ -3,11 +3,13 @@
 */
 
 #include <iostream>
+using namespace std;
+
 #include "exercises/1.cpp"
 #include "exercises/2.cpp"
 #include "exercises/3.cpp"
-
-using namespace std;
+#include "exercises/4.cpp"
+#include "exercises/4.cpp"
 
 /**
  * Main function
