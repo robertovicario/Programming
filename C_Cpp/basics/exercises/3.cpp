@@ -2,7 +2,8 @@
  * @author Roberto Vicario (C) 2024
 */
 
-#include <string.h>
+#include <iostream>
+using namespace std;
 
 /**
  * @brief Calculate the factorial of a given integer using a while loop.

@@ -14,6 +14,6 @@ using namespace std;
 */
 int main()
 {
-    cout << factorial_calculation(5) << endl;
+    cout << "Hello, World!" << endl;
     return 0;
 }
