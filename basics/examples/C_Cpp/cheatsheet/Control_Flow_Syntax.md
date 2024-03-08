@@ -3,56 +3,65 @@
 ## IF_ELSE
 
 ```cpp
-if (condition) {
-    statement
+if (/* condition */)
+{
+    /* code */
 }
-else {
-    statement
+else
+{
+    /* code */
 }
 ```
 
 ## IF_ELSE_IF
 
 ```cpp
-if (condition) {
-    statement
+if (/* condition */)
+{
+    /* code */
 }
-else if (condition) {
-    statement
+else if (/* condition */)
+{
+    /* code */
 }
-else {
-    statement
+else
+{
+    /* code */
 }
 ```
 
 ## WHILE
 
 ```cpp
-while (condition) {
-    statement
+while (/* condition */)
+{
+    /* code */
 }
 ```
 
 ## DO_WHILE
 
 ```cpp
-do {
-    statement
-} while (condition);
+do
+{
+    /* code */
+} while (/* condition */);
 ```
 
 ## FOR
 
 ```cpp
-for (init; condition; assign) {
-    statement
+for (size_t i = 0; i < count; i++)
+{
+    /* code */
 }
 ```
 
 ## FOR_EACH
 
 ```cpp
-for (init : collection) {
-    statement
+for (size_t i = 0; i < count; i++)
+{
+    /* code */
 }
 ```
