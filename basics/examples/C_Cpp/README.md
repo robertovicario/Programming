@@ -17,9 +17,9 @@ To run your code:
 
 ## Information
 
-If you see a "Permission Denied" error when running `./config.sh`, it means you lack permission to execute the script. Grant execute permissions with:
+- If you see a "Permission Denied" error when running `./config.sh`, it means you lack permission to execute the script. Grant execute permissions with:
 
-```bash
+```sh
 chmod +x config.sh
 ```
 
