@@ -7,7 +7,8 @@
 using namespace std;
 
 /**
- * @brief Check the sign of a number.
+ * Check the sign of a number.
+ * 
  * @param num The number to be checked.
  */
 void check_sign(int num) {
@@ -20,7 +21,8 @@ void check_sign(int num) {
 }
 
 /**
- * @brief Calculate the grade based on the score.
+ * Calculate the grade based on the score.
+ *
  * @param score The numerical score.
  * @return The corresponding letter grade.
  */
@@ -38,7 +40,8 @@ char calculate_grade(int score) {
 }
 
 /**
- * @brief Classify a triangle based on the lengths of its sides.
+ * Classify a triangle based on the lengths of its sides.
+ *
  * @param a Length of side a.
  * @param b Length of side b.
  * @param c Length of side c.
@@ -53,7 +56,8 @@ void classify_triangle(int a, int b, int c) {
 }
 
 /**
- * @brief Check if a character is a vowel.
+ * Check if a character is a vowel.
+ *
  * @param ch The character to be checked.
  * @return True if the character is a vowel, false otherwise.
  */
@@ -66,7 +70,8 @@ bool is_vowel(char ch) {
 }
 
 /**
- * @brief Solve a quadratic equation.
+ * Solve a quadratic equation.
+ *
  * @param a Coefficient of x^2.
  * @param b Coefficient of x.
  * @param c Constant term.

@@ -20,7 +20,7 @@ To run your code:
 - If you see a "Permission Denied" error when running `./env_configs.sh`, it means you lack permission to execute the script. Grant execute permissions with:
 
 ```sh
-chmod +x config.sh
+chmod +x env_configs.sh
 ```
 
 - Update the `CMakeLists.txt` file to include new executables or dependencies as needed.

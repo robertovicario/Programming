@@ -6,7 +6,8 @@
 using namespace std;
 
 /**
- * @brief Calculate the factorial of a given integer using a while loop.
+ * Calculate the factorial of a given integer using a while loop.
+ *
  * @param num The integer for which factorial needs to be calculated.
  * @return The factorial of the given integer.
  */
@@ -22,7 +23,8 @@ int factorial_calculation(int num)
 }
 
 /**
- * @brief Check whether a given number is prime or not using a while loop.
+ * Check whether a given number is prime or not using a while loop.
+ *
  * @param num The number to be checked for primality.
  * @return 1 if the number is prime, 0 otherwise.
  */
@@ -37,11 +39,13 @@ int is_prime(int num)
             return 0;
         i++;
     }
+
     return 1;
 }
 
 /**
- * @brief Check if a given string is a palindrome using a while loop.
+ * Check if a given string is a palindrome using a while loop.
+ *
  * @param str The string to be checked for palindrome.
  * @return 1 if the string is a palindrome, 0 otherwise.
  */
@@ -62,7 +66,8 @@ int is_palindrome(const char *str)
 }
 
 /**
- * @brief Find the GCD of two numbers using the Euclidean algorithm and a while loop.
+ * Find the GCD of two numbers using the Euclidean algorithm and a while loop.
+ *
  * @param a The first number.
  * @param b The second number.
  * @return The greatest common divisor of a and b.
@@ -74,11 +79,13 @@ int gcd(int a, int b)
         b = a % b;
         a = temp;
     }
+
     return a;
 }
 
 /**
- * @brief Calculate the power of a number using a while loop.
+ * Calculate the power of a number using a while loop.
+ *
  * @param base The base number.
  * @param exponent The exponent.
  * @return The result of base raised to the exponent.
@@ -87,9 +94,11 @@ double power(double base, int exponent)
 {
     double result = 1.0;
     int i = 0;
+
     while (i < exponent) {
         result *= base;
         i++;
     }
+
     return result;
 }

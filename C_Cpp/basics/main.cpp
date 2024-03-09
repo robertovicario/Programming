@@ -15,6 +15,10 @@ using namespace std;
 */
 int main()
 {
-    cout << "Hello, World!" << endl;
+    print("What's your name?");
+    string str;
+    str = input();
+    print("Hello, " + str + "!");
+
     return 0;
 }
