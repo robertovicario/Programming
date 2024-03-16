@@ -14,6 +14,9 @@
 ### IF_ELSE
 
 ```cpp
+/**
+ * @condition Condition evaluated in this block.
+ */
 if (condition) {
     /* code */
 } else {
@@ -24,6 +27,9 @@ if (condition) {
 ### IF_ELIF
 
 ```cpp
+/**
+ * @condition Condition evaluated in this block.
+ */
 if (condition_1) {
     /* code */
 } else if (condition_2) {
@@ -33,10 +39,80 @@ if (condition_1) {
 }
 ```
 
+## (3) ITERATION
+
+### WHILE
+
+```cpp
+/**
+ * @condition Condition for loop continuation.
+ */
+while (condition) {
+    /* code */
+}
+```
+
+### DO_WHILE
+
+```cpp
+/**
+ * @condition Condition for loop continuation.
+ */
+do {
+    /* code */
+} while (condition);
+```
+
+### FOR
+
+```cpp
+/**
+ * @init Initialization step of the loop.
+ * @condition Condition for loop continuation.
+ * @assign Assignment step at the end of each iteration.
+ */
+for (init; condition; assign) {
+    /* code */
+}
+```
+
+## (4) INSTRUCTIONS
+
+### CONTINUE
+
+```cpp
+/**
+ * @continue Jump next iteration.
+ */
+while (condition) {
+    /* code */
+    continue;
+}
+```
+
+### BREAK
+
+```cpp
+/**
+ * @break Quit loop.
+ */
+while (condition) {
+    /* code */
+    break;
+}
+```
+
+## (5) ADVANCED
+
+
 ### SWITCH
 
 ```cpp
-switch (expression) {
+/**
+ * @condition Condition evaluated in this block.
+ * @cases Lists the cases handled in this switch statement.
+ */
+switch (condition) {
     case case_1:
         /* code */
         break;
@@ -48,56 +124,14 @@ switch (expression) {
 }
 ```
 
-## (3) ITERATION
-
-### WHILE
-
-```cpp
-while (condition) {
-    /* code */
-}
-```
-
-### DO_WHILE
-
-```cpp
-do {
-    /* code */
-} while (condition);
-```
-
-### FOR
-
-```cpp
-for (init; condition; assign) {
-    /* code */
-}
-```
-
 ### FOR_EACH
 
 ```cpp
-for (auto &&init : collection) {
+/**
+ * @init Initialization step of the loop.
+ * @collection Collection over which iteration is performed.
+ */
+for (init : collection) {
     /* code */
-}
-```
-
-## (4) INSTRUCTIONS
-
-### CONTINUE
-
-```cpp
-for (init; condition; assign) {
-    /* code */
-    continue;
-}
-```
-
-### BREAK
-
-```cpp
-for (init; condition; assign) {
-    /* code */
-    break;
 }
 ```
