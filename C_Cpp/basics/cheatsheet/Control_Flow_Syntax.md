@@ -1,81 +1,103 @@
-# Control Flow Syntax
+# Control Flow in C/C++
 
-## IF_ELSE
+## (1) SEQUENCE
 
 ```cpp
-if (/* condition */)
-{
+/* code_1 */
+/* code_2 */
+/* ... */
+/* code_N */
+```
+
+## (2) SELECTION
+
+### IF_ELSE
+
+```cpp
+if (condition) {
     /* code */
-}
-else
-{
+} else {
     /* code */
 }
 ```
 
-## IF_ELSE_IF
+### IF_ELIF
 
 ```cpp
-if (/* condition */)
-{
+if (condition_1) {
     /* code */
-}
-else if (/* condition */)
-{
+} else if (condition_2) {
     /* code */
-}
-else
-{
+} else {
     /* code */
 }
 ```
 
-## WHILE
+### SWITCH
 
 ```cpp
-while (/* condition */)
-{
+switch (expression) {
+    case case_1:
+        /* code */
+        break;
+    case case_2:
+        /* code */
+        break;
+    default:
+        break;
+}
+```
+
+## (3) ITERATION
+
+### WHILE
+
+```cpp
+while (condition) {
     /* code */
 }
 ```
 
-## DO_WHILE
+### DO_WHILE
 
 ```cpp
-do
-{
+do {
     /* code */
-} while (/* condition */);
+} while (condition);
 ```
 
-## FOR
+### FOR
 
 ```cpp
-for (size_t i = 0; i < count; i++)
-{
+for (init; condition; assign) {
     /* code */
 }
 ```
 
-## FOR_EACH
+### FOR_EACH
 
 ```cpp
-for (size_t i = 0; i < count; i++)
-{
+for (auto &&init : collection) {
     /* code */
 }
 ```
 
-## SWITCH
+## (4) INSTRUCTIONS
+
+### CONTINUE
 
 ```cpp
-switch (expression)
-{
-case /* constant-expression */:
+for (init; condition; assign) {
     /* code */
-    break;
+    continue;
+}
+```
 
-default:
+### BREAK
+
+```cpp
+for (init; condition; assign) {
+    /* code */
     break;
 }
 ```

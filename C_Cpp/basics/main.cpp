@@ -13,8 +13,7 @@ using namespace std;
 /**
  * Main function
 */
-int main()
-{
+int main() {
     print("What's your name?");
     string str;
     str = input();
