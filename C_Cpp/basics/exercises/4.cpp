@@ -11,8 +11,7 @@ using namespace std;
  * @param num The integer for which factorial needs to be calculated.
  * @return The factorial of the given integer.
  */
-int factorial_calculation_v2(int num)
-{
+int factorial_calculation_v2(int num) {
     int factorial = 1;
     for (int i = num; i > 0; i--) {
         factorial *= i;
@@ -27,8 +26,7 @@ int factorial_calculation_v2(int num)
  * @param num The number to be checked for primality.
  * @return 1 if the number is prime, 0 otherwise.
  */
-int is_prime_v2(int num)
-{
+int is_prime_v2(int num) {
     if (num <= 1)
         return 0;
 
@@ -46,8 +44,7 @@ int is_prime_v2(int num)
  * @param str The string to be checked for palindrome.
  * @return 1 if the string is a palindrome, 0 otherwise.
  */
-int is_palindrome_v2(const char *str)
-{
+int is_palindrome_v2(const char *str) {
     int length = strlen(str);
     for (int start = 0, end = length - 1; start < end; start++, end--) {
         if (str[start] != str[end])
@@ -64,8 +61,7 @@ int is_palindrome_v2(const char *str)
  * @param b The second number.
  * @return The greatest common divisor of a and b.
  */
-int gcd_v2(int a, int b)
-{
+int gcd_v2(int a, int b) {
     while (b != 0) {
         int temp = b;
         b = a % b;
@@ -81,8 +77,7 @@ int gcd_v2(int a, int b)
  * @param exponent The exponent.
  * @return The result of base raised to the exponent.
  */
-double power_v2(double base, int exponent)
-{
+double power_v2(double base, int exponent) {
     double result = 1.0;
     for (int i = 0; i < exponent; i++) {
         result *= base;

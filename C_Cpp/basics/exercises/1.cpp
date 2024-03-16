@@ -10,8 +10,7 @@ using namespace std;
  *
  * @param str The string to be printed.
  */
-void print(const string& str)
-{
+void print(const string& str) {
     cout << str << endl;
 }
 
@@ -33,8 +32,7 @@ string input() {
  * @param a The first integer.
  * @param b The second integer.
  */
-void swap(int &a, int &b)
-{
+void swap(int &a, int &b) {
     int tmp = a;
     a = b;
     b = tmp;
