@@ -1,6 +1,6 @@
 # Control Flow in C/C++
 
-## (1) SEQUENCE
+## Sequence
 
 ```cpp
 /* code_1 */
@@ -9,7 +9,7 @@
 /* code_N */
 ```
 
-## (2) SELECTION
+## Selection
 
 ### IF_ELSE
 
@@ -39,7 +39,7 @@ if (condition_1) {
 }
 ```
 
-## (3) ITERATION
+## Iteration
 
 ### WHILE
 
@@ -76,7 +76,7 @@ for (init; condition; assign) {
 }
 ```
 
-## (4) INSTRUCTIONS
+## Instructions
 
 ### CONTINUE
 
@@ -102,7 +102,7 @@ while (condition) {
 }
 ```
 
-## (5) ADVANCED
+## Advanced
 
 
 ### SWITCH
